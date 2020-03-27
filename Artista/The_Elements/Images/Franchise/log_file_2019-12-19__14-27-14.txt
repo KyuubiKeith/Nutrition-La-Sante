@@ -1,0 +1,53 @@
+
+---Downloaded files---
+The import files for: Creative Agency were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://nutritionlasante.co.ke
+Data file = /home/lopyhhip/public_html/wp-content/themes/norebro/demo/21/content.xml
+Widget file = /home/lopyhhip/public_html/wp-content/themes/norebro/demo/21/widgets.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+Footer column 1 : 
+
+Norebro: Logo - No Title - Imported
+Norebro: Subscribe - No Title - Imported
+Custom HTML - No Title - Imported
+
+Footer column 2 : 
+
+Norebro: Contact block - København - Imported
+Norebro: Socialbar subscribe - No Title - Imported
+
+Footer column 3 : 
+
+Recent Comments - No Title - Widget already exists
+
+Footer column 4 : 
+
+Norebro: Recent Posts - Recent Posts - Imported
+
+
+
+---pt-ocdi/after_import---
+<div id="error"><p class="wpdberror"><strong>WordPress database error:</strong> [You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near &#039;&#039; at line 9]<br /><code>UPDATE wp_term_taxonomy SET count = (
+	SELECT COUNT(*) FROM wp_term_relationships rel 
+		LEFT JOIN wp_posts po ON (po.ID = rel.object_id) 
+		WHERE 
+			rel.term_taxonomy_id = wp_term_taxonomy.term_taxonomy_id 
+			AND 
+			wp_term_taxonomy.taxonomy NOT IN (&#039;link_category&#039;)
+			AND 
+			po.post_status IN (&#039;publish&#039;, &#039;future&#039;)</code></p></div>
