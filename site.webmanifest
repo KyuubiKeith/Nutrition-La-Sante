@@ -1,12 +1,19 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "Nutrition La' Sante",
+  "name": "Nutrition La' Sante",
   "icons": [{
-    "src": "icon.png",
-    "type": "image/png",
+    "src": "https://nutritionlasante.co.ke/KyuubiKeith/Artista/The_Elements/Images/Logos/logo.svg",
+    "type": "image/svg",
     "sizes": "192x192"
-  }],
+  },
+  {
+    "src": "https://nutritionlasante.co.ke/KyuubiKeith/Artista/The_Elements/Images/Logos/logo.svg",
+    "sizes": "512x512",
+    "type": "image/svg"
+}
+],
   "start_url": "/?utm_source=homescreen",
-  "background_color": "#a5ce3a",
-  "theme_color": "#a5ce3a"
+  "background_color": "#ffffff",
+  "theme_color": "#a5ce3a",
+  "display": "standalone"
 }

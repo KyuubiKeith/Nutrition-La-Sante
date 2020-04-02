@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="26px" height="33px" viewBox="0 0 26 33" preserveAspectRatio="none">
+ <defs>
+    <style type="text/css">
+        <![CDATA[
+           path, line{
+             fill: #b9afa9;
+           }
+        ]]>
+    </style>
+  </defs>
+    <path fill="#151A1F" d="M24.251,22.213l-2.005,0.001l0.018-16.359l2.006-0.002L24.251,22.213z"/>
+    <path fill="#151A1F" d="M7.279,7.247L7.28,5.242l16.36-0.019l-0.002,2.006L7.279,7.247z"/>
+    <path fill="#151A1F" d="M2.739,28.141l-1.402-1.399L21.855,6.249l1.402,1.4L2.739,28.141z"/>
+</svg>

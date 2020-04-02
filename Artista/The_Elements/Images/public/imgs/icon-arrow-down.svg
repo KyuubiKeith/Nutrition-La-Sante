@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" width="20" height="9" viewBox="0 0 20 9" enable-background="new 0 0 20 9" xml:space="preserve">
+     <defs>
+        <style type="text/css">
+            <![CDATA[
+               path{
+                 stroke: #fff;
+                 //stroke: #242a30;
+               }
+            ]]>
+        </style>
+      </defs>
+  <path fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" d="M18.941 1L9.971 7.971 1 1"/>
+</svg>
