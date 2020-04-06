@@ -1,0 +1,19 @@
+ <svg class="home-p" 
+                                 xmlns="http://www.w3.org/2000/svg" 
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" 
+                                 version="1.1" 
+                                 x="0" 
+                                 y="0" 
+                                 preserveAspectRatio="xMidYMid slice" 
+                                 viewBox="0 0 1280 800" 
+                                 enable-background="new 0 0 1280 800" 
+                                 xml:space="preserve" 
+                                 style="transform: scale3d(1, 1, 1);">
+                                <path class="p" 
+                                      fill="#a5ce3a" 
+                                      d="M637.56 336.18c-4.93 0-10.56 0-14.56 0.22v40.78c5 0 9.63 0.23 14.78 0.23 19.05 0 28.22-4.49 28.22-19.95v-2.01C666 339.32 656.83 336.18 637.56 336.18z">
+                                    </path>
+                                <path fill="#a5ce3a" 
+                                      d="M0 0v800h1280V0H0zM717 357.46c0 48.85-37.58 57.35-77.45 57.35 -5.6 0-9.55 0-16.55-0.22v19.26l13 0.9V468h-73v-33.26l10-0.9v-97.44l-10-0.88V301.91c23-2.01 51.14-2.91 70.62-2.91 45.93 0 83.38 8.28 83.38 56.45V357.46z">
+                                </path>
+                            </svg>
