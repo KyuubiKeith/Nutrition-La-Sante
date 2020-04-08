@@ -111,12 +111,13 @@
     /* Black Sans */
 
     /* Google Product Sans */
+
         @font-face {
             font-family: 'Product Sans Regular';
             font-style: normal;
             font-weight: normal;
             src: 
-            local('Product-Sans'), 
+            local('Product Sans Regular'), 
             url('../../The_Elements/Fonts/Product-Sans/WOFF/ProductSans-Regular.woff') format('woff');
         }
         
@@ -695,7 +696,7 @@ body {
 
 h1 {
     font-size: 2em;
-    margin: 0.67em 0;
+    margin: 0.67em 0;font: normal 400 74px/74px 'Knockout 27 A', 'Knockout 27 B', Helvetica, Arial, sans-serif;
 }
 
 
@@ -1331,7 +1332,7 @@ sub {
 /*******  *******/
 
 h3 {
-    font: normal 50px/58px 'pEL', Helvetica, Arial, sans-serif;
+    font: normal 50px/58px 'Black Sans Regular';
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -1339,13 +1340,13 @@ h3 {
 }
 
 h3.medium {
-    font: normal 30px/36px 'pR', Helvetica, Arial, sans-serif;
+    font: normal 30px/36px 'Black Sans Condensed Medium';
     text-align: left;
     letter-spacing: 1px;
 }
 
 h3.light {
-    font: normal 30px/36px 'pL', Helvetica, Arial, sans-serif;
+    font: normal 30px/36px 'Black Sans Condensed Light';
     text-align: left;
     letter-spacing: 1px;
 }
@@ -1353,7 +1354,7 @@ h3.light {
 strong,
 .strong,
 b {
-    font-family: 'p-Medium', Helvetica, Arial, sans-serif;
+    font-family: 'Black Sans Condensed SemiBold';
 }
 
 
@@ -1387,7 +1388,7 @@ b {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 40px;
-    font: normal 400 74px/74px 'Black Sans Condensed Medium';
+    font: normal 400 2em/1.3em 'Black Sans Condensed Medium';
     letter-spacing: 0;
 }
 
@@ -1430,33 +1431,33 @@ b {
 }
 
 .gym-name.yellow::before {
-    background: transparent url(/public/imgs/title-top-arc-yellow.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-top-arc-yellow.svg) no-repeat center center;
     top: -100px;
 }
 
 .gym-name.orange::before {
-    background: transparent url(/public/imgs/title-top-arc-orange.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-top-arc-orange.svg) no-repeat center center;
     top: -100px;
 }
 
 .gym-name.white::before {
-    background: transparent url(/public/imgs/title-top-arc-white.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-top-arc-white.svg) no-repeat center center;
     top: -100px;
     opacity: 1;
 }
 
 .gym-name.yellow::after {
-    background: transparent url(/public/imgs/title-bottom-arc-yellow.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-bottom-arc-yellow.svg) no-repeat center center;
     top: 100px;
 }
 
 .gym-name.orange::after {
-    background: transparent url(/public/imgs/title-bottom-arc-orange.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-bottom-arc-orange.svg) no-repeat center center;
     top: 100px;
 }
 
 .gym-name.white::after {
-    background: transparent url(/public/imgs/title-bottom-arc-white.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-bottom-arc-white.svg) no-repeat center center;
     top: 100px;
     opacity: 1;
 }
@@ -1472,43 +1473,43 @@ b {
 }
 
 .gym-name.size38.yellow::before {
-    background: transparent url(/public/imgs/title-top-arc-yellow-w70.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-top-arc-yellow-w70.svg) no-repeat center center;
     top: -67px;
 }
 
 .gym-name.size38.orange::before {
-    background: transparent url(/public/imgs/title-top-arc-orange-w70.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-top-arc-orange-w70.svg) no-repeat center center;
     top: -67px;
 }
 
 .gym-name.size38.gyellow::before {
-    background: transparent url(/public/imgs/title-top-arc-gyellow-w70.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-top-arc-gyellow-w70.svg) no-repeat center center;
     top: -67px;
 }
 
 .gym-name.size38.white::before {
-    background: transparent url(/public/imgs/title-top-arc-white-w70.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-top-arc-white-w70.svg) no-repeat center center;
     top: -67px;
     opacity: 1;
 }
 
 .gym-name.size38.yellow::after {
-    background: transparent url(/public/imgs/title-bottom-arc-yellow-w70.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-bottom-arc-yellow-w70.svg) no-repeat center center;
     top: 34px;
 }
 
 .gym-name.size38.orange::after {
-    background: transparent url(/public/imgs/title-bottom-arc-orange-w70.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-bottom-arc-orange-w70.svg) no-repeat center center;
     top: 34px;
 }
 
 .gym-name.size38.gyellow::after {
-    background: transparent url(/public/imgs/title-bottom-arc-gyellow-w70.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-bottom-arc-gyellow-w70.svg) no-repeat center center;
     top: 34px;
 }
 
 .gym-name.size38.white::after {
-    background: transparent url(/public/imgs/title-bottom-arc-white-w70.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-bottom-arc-white-w70.svg) no-repeat center center;
     top: 34px;
     opacity: 1;
 }
@@ -3777,13 +3778,13 @@ NOTE. because i use srcset for retina i dont need special css for it!
 }
 
 .content-horarios .off .gym-name.white::before {
-    background: transparent url(/public/imgs/title-top-arc-white-off.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-top-arc-white-off.svg) no-repeat center center;
     top: -100px;
     opacity: 1;
 }
 
 .content-horarios .off .gym-name.white::after {
-    background: transparent url(/public/imgs/title-bottom-arc-white-off.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/title-bottom-arc-white-off.svg) no-repeat center center;
     top: 100px;
     opacity: 1;
 }
@@ -3959,7 +3960,7 @@ NOTE. because i use srcset for retina i dont need special css for it!
     color: #ffffff;
     border-spacing: 1px 0;
     border-collapse: separate;
-    /*background: transparent url(/public/imgs/horario-tabela-celas-bg.gif) repeat-y;*/
+    /*background: transparent url(../../The_Elements/Images/public/imgs/horario-tabela-celas-bg.gif) repeat-y;*/
 }
 
 .table-horarios colgroup {
@@ -4520,7 +4521,7 @@ a.mod-no-click {
     width: 36px;
     height: 35px;
     margin-bottom: 80px;
-    background: transparent url(/public/imgs/id/phive-id-p.svg) no-repeat;
+    background: transparent url(../../The_Elements/Images/public/imgs/id/phive-id-p.svg) no-repeat;
     background-size: 150px auto;
 }
 
@@ -4533,7 +4534,7 @@ a.mod-no-click {
     width: 167px;
     height: 38px;
     margin-bottom: 80px;
-    background: transparent url(/public/imgs/id/phive-id.svg) no-repeat;
+    background: transparent url(../../The_Elements/Images/public/imgs/id/phive-id.svg) no-repeat;
     background-size: auto 38px;
 }
 
@@ -4892,7 +4893,7 @@ a.mod-no-click {
   width: 29px;
   height: 40px;
   content: "";
-  background: transparent url(/public/imgs/icon-arrow-footer-next.svg) no-repeat;
+  background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-footer-next.svg) no-repeat;
 }*/
 
 @media screen and (max-width: 1400px) {
@@ -5950,6 +5951,7 @@ a.mod-no-click {
     width: 94px;
     height: 94px;
     border: 3px solid #fff;
+    
 }
 
 .btn-square-center span {
@@ -6005,7 +6007,7 @@ button.btn-square-center span {
 
 .btn-rect.arrow span {
     padding-right: 23px;
-    background: transparent url(/public/imgs/icon-arrow-btn.png) no-repeat 123px 8px;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-btn.png) no-repeat 123px 8px;
     /*120px was 100%*/
     background-size: 6px auto;
     -webki-transition: background-position .26s ease-in-out;
@@ -6829,37 +6831,37 @@ button.btn-arrow .container {
 /******* =arrows *******/
 
 .btn-arrow .arrow {
-    background: transparent url(/public/imgs/icon-arrow-down-big-lbrown.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down-big-lbrown.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.arrow-blue .arrow {
-    background: transparent url(/public/imgs/icon-arrow-down-bigblue.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down-bigblue.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.arrow-yellow .arrow {
-    background: transparent url(/public/imgs/icon-arrow-down-bigyellow.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down-bigyellow.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.arrow-purple .arrow {
-    background: transparent url(/public/imgs/icon-arrow-down-bigpurple.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down-bigpurple.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.arrow-lbrown .arrow {
-    background: transparent url(/public/imgs/icon-arrow-down-big-lbrown.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down-big-lbrown.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.arrow-dbrown .arrow {
-    background: transparent url(/public/imgs/icon-arrow-down-big-dbrown.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down-big-dbrown.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.arrow-lblue .arrow {
-    background: transparent url(/public/imgs/icon-arrow-down-big-lblue.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down-big-lblue.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
@@ -6867,32 +6869,32 @@ button.btn-arrow .container {
 /*Top Right*/
 
 .btn-arrow.trgt .arrow {
-    background: transparent url(/public/imgs/icon-arrow-top-right.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-top-right.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.trgt.arrow-blue .arrow {
-    background: transparent url(/public/imgs/icon-arrow-top-right-blue.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-top-right-blue.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.trgt.arrow-yellow .arrow {
-    background: transparent url(/public/imgs/icon-arrow-top-right-yellow.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-top-right-yellow.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.trgt.arrow-orange .arrow {
-    background: transparent url(/public/imgs/icon-arrow-top-right-orange.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-top-right-orange.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.trgt.arrow-lbrown .arrow {
-    background: transparent url(/public/imgs/icon-arrow-top-right-lbrown.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-top-right-lbrown.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.trgt.arrow-dbrown .arrow {
-    background: transparent url(/public/imgs/icon-arrow-top-right-dbrown.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-top-right-dbrown.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
@@ -7257,42 +7259,42 @@ button.btn-arrow .container {
 }
 
 .btn-arrow .join {
-    background: transparent url(/public/imgs/icon-btn-join.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-btn-join.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow .subscribe {
-    background: transparent url(/public/imgs/icon-btn-subscribe.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-btn-subscribe.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.join-blue .join {
-    background: transparent url(/public/imgs/icon-btn-join-blue.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-btn-join-blue.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.join-yellow .join {
-    background: transparent url(/public/imgs/icon-btn-join-yellow.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-btn-join-yellow.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.join-purple .join {
-    background: transparent url(/public/imgs/icon-btn-join-purple.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-btn-join-purple.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.subscribe-blue .subscribe {
-    background: transparent url(/public/imgs/icon-btn-subscribe-blue.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-btn-subscribe-blue.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.subscribe-yellow .subscribe {
-    background: transparent url(/public/imgs/icon-btn-subscribe-yellow.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-btn-subscribe-yellow.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
 .btn-arrow.subscribe-purple .subscribe {
-    background: transparent url(/public/imgs/icon-btn-subscribe-purple.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-btn-subscribe-purple.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
@@ -7807,7 +7809,7 @@ img {
     width: 256px;
     height: 56px;
     text-indent: -5555px;
-    background: transparent url(/public/imgs/id/phive-id-big.svg) no-repeat 0 0;
+    background: transparent url(../../The_Elements/Images/public/imgs/id/phive-id-big.svg) no-repeat 0 0;
     background-size: 256px 56px;
 }
 
@@ -7816,7 +7818,7 @@ img {
     display: block;
     width: 159px;
     height: 146px;
-    background: transparent url(/public/imgs/icon-horario.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-horario.svg) no-repeat center center;
     opacity: 0;
     -webkit-transition: opacity .15s linear;
     transition: opacity .15s linear;
@@ -7834,19 +7836,19 @@ img {
 }
 
 .icon-horarios-lightbrown {
-    background: transparent url(/public/imgs/icon-horario-lightbrown.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-horario-lightbrown.svg) no-repeat center center;
 }
 
 .icon-horarios-darkbrown {
-    background: transparent url(/public/imgs/icon-horario-darkbrown.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-horario-darkbrown.svg) no-repeat center center;
 }
 
 .icon-horarios-white-opac {
-    background: transparent url(/public/imgs/icon-horario-white-opac.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-horario-white-opac.svg) no-repeat center center;
 }
 
 .icon-horarios-white {
-    background: transparent url(/public/imgs/icon-horario-white.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-horario-white.svg) no-repeat center center;
 }
 
 .icon-horarios-wrapper {
@@ -7870,18 +7872,18 @@ img {
 }
 
 .icon-horarios-bw {
-    background: transparent url(/public/imgs/icon-horario-bw.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-horario-bw.svg) no-repeat center center;
 }
 
 .icon-horarios-ld-brown {
-    background: transparent url(/public/imgs/icon-horario-ld-brown.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-horario-ld-brown.svg) no-repeat center center;
 }
 
 .icon-arrow-r {
     display: inline-block;
     width: 6px;
     height: 9px;
-    background: transparent url(/public/imgs/icon-arrow-btn.png) no-repeat;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-btn.png) no-repeat;
     background-size: 6px auto;
 }
 
@@ -7906,27 +7908,27 @@ img {
 }
 
 .icon-infinit {
-    background-image: url(/public/imgs/icon-ilimitado.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/icon-ilimitado.svg);
 }
 
 .icon-watch {
-    background-image: url(/public/imgs/icon-watch-big.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/icon-watch-big.svg);
 }
 
 .icon-nutri {
-    background-image: url(/public/imgs/icon-nutricao.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/icon-nutricao.svg);
 }
 
 .icon-shirt {
-    background-image: url(/public/imgs/icon-tshirt.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/icon-tshirt.svg);
 }
 
 .icon-modality {
-    background-image: url(/public/imgs/icon-modality.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/icon-modality.svg);
 }
 
 .icon-pool {
-    background-image: url(/public/imgs/icon-pool.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/icon-pool.svg);
     background-size: 140px auto;
 }
 
@@ -7934,17 +7936,17 @@ img {
 /** NEW ICONS **/
 
 .icon-spa {
-    background-image: url(/public/imgs/icon-spa.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/icon-spa.svg);
     background-size: 80px auto;
 }
 
 .icon-beauty {
-    background-image: url(/public/imgs/icon-beleza.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/icon-beleza.svg);
     background-size: 80px auto;
 }
 
 .icon-box-crossfit {
-    background-image: url(/public/imgs/icon-box-crossfit.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/icon-box-crossfit.svg);
     background-size: 80px auto;
 }
 
@@ -7953,12 +7955,12 @@ img {
 }
 
 .icon-low-cost {
-    background-image: url(/public/imgs/icon-low-cost.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/icon-low-cost.svg);
     background-size: 80px auto;
 }
 
 .icon-massagens {
-    background-image: url(/public/imgs/icon-massagens.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/icon-massagens.svg);
     background-size: 80px auto;
 }
 
@@ -7978,7 +7980,7 @@ img {
     display: block;
     width: 128px;
     height: 102px;
-    background-image: url(/public/imgs/icon-piscina.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/icon-piscina.svg);
     background-color: transparent;
     background-position: center center;
     background-repeat: no-repeat;
@@ -8085,11 +8087,11 @@ img {
 /* =FORMS =OK =X */
 
 .ico-x {
-    background: transparent url(/public/imgs/icon-x.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-x.svg) no-repeat center center;
 }
 
 .ico-ok {
-    background: transparent url(/public/imgs/icon-ok.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-ok.svg) no-repeat center center;
 }
 
 
@@ -9082,7 +9084,7 @@ PAGES
     min-height: 100%;
     width: auto;
     height: auto;
-    background: transparent url(/public/video/flow-video.jpg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/video/flow-video.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -9269,7 +9271,7 @@ PAGES
 
 
 /*.orientation_portrait #home-start .bg{
-    background: transparent url(/public/files/home/start-portrait.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/files/home/start-portrait.svg) no-repeat center center;
     background-size: cover;
 }
 */
@@ -9623,7 +9625,7 @@ PAGES
     width: 400px;
     height: 100%;
     content: "";
-    background: transparent url(/public/imgs/home/home-modalidades-mask-top.svg) no-repeat;
+    background: transparent url(../../The_Elements/Images/public/imgs/home/home-modalidades-mask-top.svg) no-repeat;
     background-size: cover;
     transform-origin: 50% 200px;
 }
@@ -9636,7 +9638,7 @@ PAGES
     width: 400px;
     height: 100%;
     content: "";
-    background: transparent url(/public/imgs/home/home-modalidades-mask-btm.svg) no-repeat;
+    background: transparent url(../../The_Elements/Images/public/imgs/home/home-modalidades-mask-btm.svg) no-repeat;
     background-size: cover;
     transform-origin: 50% 200px;
 }
@@ -9800,10 +9802,10 @@ PAGES
 
 @media screen and (max-width: 360px) {
     .modality-home::before {
-        background: transparent url(/public/imgs/home/home-modalidades-mask-top-mobile.svg) no-repeat;
+        background: transparent url(../../The_Elements/Images/public/imgs/home/home-modalidades-mask-top-mobile.svg) no-repeat;
     }
     .modality-home::after {
-        background: transparent url(/public/imgs/home/home-modalidades-mask-btm-mobile.svg) no-repeat;
+        background: transparent url(../../The_Elements/Images/public/imgs/home/home-modalidades-mask-btm-mobile.svg) no-repeat;
     }
     .content-modal-home .btn-all {
         margin-bottom: 0;
@@ -9832,7 +9834,7 @@ PAGES
     left: 0;
     bottom: 0;
     width: 100%;
-    font: normal 400 32px/32px 'Knockout 27 A', 'Knockout 27 B', Helvetica, Arial, sans-serif;
+    font: normal 400 32px/32px 'Black Sans Condensed Medium';
     letter-spacing: 0px;
     text-transform: uppercase;
     text-align: center;
@@ -9866,7 +9868,7 @@ PAGES
 }
 
 
-/******* =GYM =GINASIOS HOME *******/
+/******* = Who We Are = HOME *******/
 
 .content-gym-home {
     position: relative;
@@ -9876,7 +9878,7 @@ PAGES
     min-height: 100vh;
     color: #ffffff;
     overflow: hidden;
-    font: normal 28px/40px 'p-Light', Helvetica, Arial, sans-serif;
+    font: normal 1.7em/1.4em 'Black Sans Regular';
     text-align: center;
 }
 
@@ -9953,21 +9955,21 @@ PAGES
 
 .content-gym-home .click-form {
     margin: -35px 0 0 0;
-    font: normal 400 24px/24px 'Knockout 27 A', 'Knockout 27 B', Helvetica, Arial, sans-serif;
+    font: normal 400 20px/20px 'Black Sans Condensed Medium';
     text-transform: uppercase;
     opacity: .5;
 }
 
 .click-form .underline-anim {
-    background-position: -227px 27px;
+    background-position: -227px 20px;
 }
 
 .click-form .underline-anim:not(.hover-out):hover {
-    background-position: 0 27px;
+    background-position: 0 20px;
 }
 
 .click-form .underline-anim.hover-out {
-    background-position: 227px 27px;
+    background-position: 227px 20px;
 }
 
 .content-gym-home .info-content .info-btn {
@@ -9977,11 +9979,15 @@ PAGES
     width: 100%;
     margin: 0;
 }
+.info-btn{
+    font: normal 400 0.7em/20px 'Black Sans Condensed Medium';
+}
 
 .content-gym-home .info-content .info-btn.double {
     position: relative;
     bottom: 0;
     width: 100%;
+ 
 }
 
 .content-gym-home .info-content .btn-wrapper {
@@ -10099,7 +10105,7 @@ PAGES
     z-index: 150;
     width: 100%;
     background: #252322;
-    font: normal 400 66px/57px 'Knockout 27 A', 'Knockout 27 B', Helvetica, Arial, sans-serif;
+    font: normal 400 1.5em/22px 'Black Sans Condensed Book';
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
@@ -10507,17 +10513,17 @@ PAGES
 }
 
 .content-map-home .lagrimas-health-club {
-    background: transparent url(/public/files/home/map-lagrimas.gif) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/files/home/map-lagrimas.gif) no-repeat center center;
     background-size: cover;
 }
 
 .content-map-home .celas-fitness-club {
-    background: transparent url(/public/files/home/map-celas.gif) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/files/home/map-celas.gif) no-repeat center center;
     background-size: cover;
 }
 
 .content-map-home .leiria-health-club {
-    background: transparent url(/public/files/home/map-leiria.jpg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/files/home/map-leiria.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -11039,37 +11045,37 @@ PAGES
 }
 
 .section-group-all.power .header-group .bg {
-    background: transparent url(/public/files/modalidades-power.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/files/modalidades-power.svg) no-repeat center center;
     background-size: cover;
     background-size: 101%;
 }
 
 .section-group-all.moves .header-group .bg {
-    background: transparent url(/public/files/modalidades-moves.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/files/modalidades-moves.svg) no-repeat center center;
     background-size: cover;
     background-size: 101%;
 }
 
 .section-group-all.ride .header-group .bg {
-    background: transparent url(/public/files/modalidades-ride.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/files/modalidades-ride.svg) no-repeat center center;
     background-size: cover;
     background-size: 101%;
 }
 
 .section-group-all.flow .header-group .bg {
-    background: transparent url(/public/files/modalidades-flow.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/files/modalidades-flow.svg) no-repeat center center;
     background-size: cover;
     background-size: 101%;
 }
 
 .section-group-all.aqua .header-group .bg {
-    background: transparent url(/public/files/modalidades-aqua.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/files/modalidades-aqua.svg) no-repeat center center;
     background-size: cover;
     background-size: 101%;
 }
 
 .section-group-all.growup .header-group .bg {
-    background: transparent url(/public/files/modalidades-growup.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/files/modalidades-growup.svg) no-repeat center center;
     background-size: cover;
     background-size: 101%;
 }
@@ -11108,27 +11114,27 @@ PAGES
         bottom: 35%;
     }
     .section-group-all.power .header-group .bg {
-        background: transparent url(/public/files/modalidades-power-vertical.svg) no-repeat center center;
+        background: transparent url(../../The_Elements/Images/public/files/modalidades-power-vertical.svg) no-repeat center center;
         background-size: cover;
     }
     .section-group-all.moves .header-group .bg {
-        background: transparent url(/public/files/modalidades-moves-vertical.svg) no-repeat center center;
+        background: transparent url(../../The_Elements/Images/public/files/modalidades-moves-vertical.svg) no-repeat center center;
         background-size: cover;
     }
     .section-group-all.ride .header-group .bg {
-        background: transparent url(/public/files/modalidades-ride-vertical.svg) no-repeat center center;
+        background: transparent url(../../The_Elements/Images/public/files/modalidades-ride-vertical.svg) no-repeat center center;
         background-size: cover;
     }
     .section-group-all.flow .header-group .bg {
-        background: transparent url(/public/files/modalidades-flow-vertical.svg) no-repeat center center;
+        background: transparent url(../../The_Elements/Images/public/files/modalidades-flow-vertical.svg) no-repeat center center;
         background-size: cover;
     }
     .section-group-all.aqua .header-group .bg {
-        background: transparent url(/public/files/modalidades-aqua-vertical.svg) no-repeat center center;
+        background: transparent url(../../The_Elements/Images/public/files/modalidades-aqua-vertical.svg) no-repeat center center;
         background-size: cover;
     }
     .section-group-all.growup .header-group .bg {
-        background: transparent url(/public/files/modalidades-growup-vertical.svg) no-repeat center center;
+        background: transparent url(../../The_Elements/Images/public/files/modalidades-growup-vertical.svg) no-repeat center center;
         background-size: cover;
     }
 }
@@ -11653,37 +11659,37 @@ nav.nav-modality-all a:hover .crl span {
 .nav-modality-all a[data-go="#power"] .txt {
     height: 42px;
     margin-top: -21px;
-    background: transparent url(/public/imgs/modalidades/txt-nav-power.svg) no-repeat;
+    background: transparent url(../../The_Elements/Images/public/imgs/modalidades/txt-nav-power.svg) no-repeat;
 }
 
 .nav-modality-all a[data-go="#moves"] .txt {
     height: 42px;
     margin-top: -21px;
-    background: transparent url(/public/imgs/modalidades/txt-nav-moves.svg) no-repeat;
+    background: transparent url(../../The_Elements/Images/public/imgs/modalidades/txt-nav-moves.svg) no-repeat;
 }
 
 .nav-modality-all a[data-go="#ride"] .txt {
     height: 28px;
     margin-top: -14px;
-    background: transparent url(/public/imgs/modalidades/txt-nav-ride.svg) no-repeat;
+    background: transparent url(../../The_Elements/Images/public/imgs/modalidades/txt-nav-ride.svg) no-repeat;
 }
 
 .nav-modality-all a[data-go="#flow"] .txt {
     height: 33px;
     margin-top: -16px;
-    background: transparent url(/public/imgs/modalidades/txt-nav-flow.svg) no-repeat;
+    background: transparent url(../../The_Elements/Images/public/imgs/modalidades/txt-nav-flow.svg) no-repeat;
 }
 
 .nav-modality-all a[data-go="#aqua"] .txt {
     height: 33px;
     margin-top: -16px;
-    background: transparent url(/public/imgs/modalidades/txt-nav-aqua.svg) no-repeat;
+    background: transparent url(../../The_Elements/Images/public/imgs/modalidades/txt-nav-aqua.svg) no-repeat;
 }
 
 .nav-modality-all a[data-go="#growup"] .txt {
     height: 59px;
     margin-top: -29px;
-    background: transparent url(/public/imgs/modalidades/txt-nav-growup.svg) no-repeat;
+    background: transparent url(../../The_Elements/Images/public/imgs/modalidades/txt-nav-growup.svg) no-repeat;
 }
 
 
@@ -13372,14 +13378,14 @@ nav.nav-modality-all a:hover .crl span {
 -------------------------------------------------------------------------*/
 
 .team-all .section-group-all .header-group .bg {
-    background: transparent url(/public/files/instrutores.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/files/instrutores.svg) no-repeat center center;
     background-size: cover;
     background-size: 101%;
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {
     .team-all .section-group-all .header-group .bg {
-        background: transparent url(/public/files/instrutores-vertical.svg) no-repeat center center;
+        background: transparent url(../../The_Elements/Images/public/files/instrutores-vertical.svg) no-repeat center center;
         background-size: cover;
     }
 }
@@ -13445,7 +13451,7 @@ nav.nav-modality-all a:hover .crl span {
     width: 100%;
     height: 200vh;
     overflow: hidden;
-    /*background: #151a1f url(/public/files/team/team-bg-test.jpg) repeat;*/
+    /*background: #151a1f url(../../The_Elements/Images/public/files/team/team-bg-test.jpg) repeat;*/
     background: #060606;
 }
 
@@ -13717,7 +13723,7 @@ nav.nav-modality-all a:hover .crl span {
     text-align: left;
     text-transform: uppercase;
     color: #fff;
-    background: transparent url(/public/imgs/icon-arrow-down.svg) no-repeat right 21px;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down.svg) no-repeat right 21px;
     border: 0;
     border-bottom: 2px solid transparent;
     width: auto;
@@ -13733,7 +13739,7 @@ nav.nav-modality-all a:hover .crl span {
 }
 
 .form-team-member select:hover {
-    background: transparent url(/public/imgs/icon-arrow-down.svg) no-repeat right 19px;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down.svg) no-repeat right 19px;
 }
 
 .form-team-member select option {
@@ -13936,7 +13942,7 @@ nav.nav-modality-all a:hover .crl span {
 #nav-inscricoes button span.text {
     position: relative;
     cursor: pointer;
-    background: transparent url(/public/imgs/underline-dashed.png) repeat-x bottom right;
+    background: transparent url(../../The_Elements/Images/public/imgs/underline-dashed.png) repeat-x bottom right;
     background-size: auto 1px;
     white-space: nowrap;
 }
@@ -13946,7 +13952,7 @@ nav.nav-modality-all a:hover .crl span {
     width: 20px;
     height: 15px;
     margin-left: 1px;
-    background: transparent url(/public/imgs/icon-arrow-down.svg) no-repeat;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down.svg) no-repeat;
     -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     -ms-transition: -ms-transform .15s ease-out;
     transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -14533,7 +14539,7 @@ nav.nav-modality-all a:hover .crl span {
     width: 37px;
     height: 35px;
     border: 2px solid #fff;
-    background: transparent url(/public/imgs/icon-slideshow-arrow.svg) no-repeat 10px 50%;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-slideshow-arrow.svg) no-repeat 10px 50%;
     background-size: 15px 19px;
     text-indent: -5555px;
     cursor: pointer;
@@ -15790,7 +15796,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .page-toload.recruta .btn-arrow .arrow {
-    background: transparent url(/public/imgs/icon-arrow-down-big-brown.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down-big-brown.svg) no-repeat center center;
     background-size: 26px auto;
 }
 
@@ -16475,7 +16481,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .ginasios-recruta ul li .btn-arrow .arrow {
-    background: transparent url(/public/imgs/icon-arrow-down-bigwhite.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down-bigwhite.svg) no-repeat center center;
 }
 
 .ginasios-recruta ul li h3 {
@@ -16945,7 +16951,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .leiria .leiria-content {
-    background: transparent url(/public/files/home/map-leiria.jpg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/files/home/map-leiria.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -16988,7 +16994,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .leiria .leiria-content .btn-arrow.arrow-yellow .arrow {
-    background: transparent url(/public/imgs/icon-arrow-down-big-lbrown.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down-big-lbrown.svg) no-repeat center center;
 }
 
 @media screen and (max-width: 566px) {
@@ -17260,7 +17266,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .nutricao-all .nutricao-list .btn-arrow .arrow {
-    background: transparent url(/public/imgs/icon-arrow-down-bigwhite.svg) no-repeat center center;
+    background: transparent url(../../The_Elements/Images/public/imgs/icon-arrow-down-bigwhite.svg) no-repeat center center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18886,173 +18892,173 @@ PAGES
 
 .ico-s.aquacircuit,
 .ico-m.aquacircuit {
-    background-image: url(/public/imgs/modalidades/picto-aquacircuit.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-aquacircuit.svg);
 }
 
 .ico-s.ballet,
 .ico-m.ballet {
-    background-image: url(/public/imgs/modalidades/picto-ballet.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-ballet.svg);
 }
 
 .ico-s.ballet2,
 .ico-m.ballet2 {
-    background-image: url(/public/imgs/modalidades/picto-ballet.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-ballet.svg);
 }
 
 .ico-s.bodyattack,
 .ico-m.bodyattack {
-    background-image: url(/public/imgs/modalidades/picto-bodyattack.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bodyattack.svg);
 }
 
 .ico-s.bodybalance,
 .ico-m.bodybalance {
-    background-image: url(/public/imgs/modalidades/picto-bodybalance.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bodybalance.svg);
 }
 
 .ico-s.bodycombat,
 .ico-m.bodycombat {
-    background-image: url(/public/imgs/modalidades/picto-bodycombat.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bodycombat.svg);
 }
 
 .ico-s.bodyjam,
 .ico-m.bodyjam {
-    background-image: url(/public/imgs/modalidades/picto-bodyjam.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bodyjam.svg);
 }
 
 .ico-s.bodypump,
 .ico-m.bodypump {
-    background-image: url(/public/imgs/modalidades/picto-bodypump.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bodypump.svg);
 }
 
 .ico-s.bodystep,
 .ico-m.bodystep {
-    background-image: url(/public/imgs/modalidades/picto-bodystep.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bodystep.svg);
 }
 
 .ico-s.bodyvive,
 .ico-m.bodyvive {
-    background-image: url(/public/imgs/modalidades/picto-bodyvive.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bodyvive.svg);
 }
 
 .ico-s.bootcamp,
 .ico-m.bootcamp {
-    background-image: url(/public/imgs/modalidades/picto-bootcamp.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bootcamp.svg);
 }
 
 .ico-s.borntomove,
 .ico-m.borntomove {
-    background-image: url(/public/imgs/modalidades/picto-borntomove.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-borntomove.svg);
 }
 
 .ico-s.btm,
 .ico-m.btm {
-    background-image: url(/public/imgs/modalidades/picto-btm.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-btm.svg);
 }
 
 .ico-s.crossphive,
 .ico-m.crossphive {
-    background-image: url(/public/imgs/modalidades/picto-crossfit.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-crossfit.svg);
 }
 
 .ico-s.cxworx,
 .ico-m.cxworx {
-    background-image: url(/public/imgs/modalidades/picto-cxworx.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-cxworx.svg);
 }
 
 .ico-s.estrelasmar,
 .ico-m.estrelasmar {
-    background-image: url(/public/imgs/modalidades/picto-estrelasmar.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-estrelasmar.svg);
 }
 
 .ico-s.flyoga,
 .ico-m.flyoga {
-    background-image: url(/public/imgs/modalidades/picto-flyoga.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-flyoga.svg);
 }
 
 .ico-s.gap,
 .ico-m.gap {
-    background-image: url(/public/imgs/modalidades/picto-gap.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-gap.svg);
 }
 
 .ico-s.gritseries,
 .ico-m.gritseries {
-    background-image: url(/public/imgs/modalidades/picto-gritseries.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-gritseries.svg);
 }
 
 .ico-s.phitkids,
 .ico-m.phitkids {
-    background-image: url(/public/imgs/modalidades/picto-phitkids.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-phitkids.svg);
 }
 
 .ico-s.phitt,
 .ico-m.phitt {
-    background-image: url(/public/imgs/modalidades/picto-phitt.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-phitt.svg);
 }
 
 .ico-s.gritcardio,
 .ico-m.gritcardio {
-    background-image: url(/public/imgs/modalidades/picto-gritcardio.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-gritcardio.svg);
 }
 
 .ico-s.hidrobike,
 .ico-m.hidrobike {
-    background-image: url(/public/imgs/modalidades/picto-hidrobike.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-hidrobike.svg);
 }
 
 .ico-s.hidroginastica,
 .ico-m.hidroginastica {
-    background-image: url(/public/imgs/modalidades/picto-hidroginastica.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-hidroginastica.svg);
 }
 
 .ico-s.hidrohiit,
 .ico-m.hidrohiit {
-    background-image: url(/public/imgs/modalidades/picto-hidrohiit.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-hidrohiit.svg);
 }
 
 .ico-s.phivekangoo,
 .ico-b.phivekangoo,
 .ico-m.phivekangoo {
-    background-image: url(/public/imgs/modalidades/picto-kangoo.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-kangoo.svg);
 }
 
 .ico-s.phivestretch,
 .ico-m.phivestretch {
-    background-image: url(/public/imgs/modalidades/picto-stretch.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-stretch.svg);
 }
 
 .ico-s.musculacao,
 .ico-m.musculacao {
-    background-image: url(/public/imgs/modalidades/picto-musculacao.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-musculacao.svg);
 }
 
 .ico-s.natacao,
 .ico-m.natacao {
-    background-image: url(/public/imgs/modalidades/picto-natacao.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-natacao.svg);
 }
 
 .ico-s.natacaokids,
 .ico-m.natacaokids {
-    background-image: url(/public/imgs/modalidades/picto-natacao.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-natacao.svg);
 }
 
 .ico-s.pilates,
 .ico-m.pilates {
-    background-image: url(/public/imgs/modalidades/picto-pilates.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-pilates.svg);
 }
 
 .ico-s.phuntional,
 .ico-m.phuntional {
-    background-image: url(/public/imgs/modalidades/picto-phunctional.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-phunctional.svg);
 }
 
 .ico-s.powerjump,
 .ico-m.powerjump {
-    background-image: url(/public/imgs/modalidades/picto-powerjump.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-powerjump.svg);
 }
 
 .ico-s.rpm,
 .ico-m.rpm {
-    background-image: url(/public/imgs/modalidades/picto-rpm.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-rpm.svg);
 }
 
 .ico-s.spinning,
@@ -19061,37 +19067,37 @@ PAGES
 .ico-m.race,
 .ico-s.long-ride,
 .ico-m.long-ride {
-    background-image: url(/public/imgs/modalidades/picto-spinning.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-spinning.svg);
 }
 
 .ico-s.step,
 .ico-m.step {
-    background-image: url(/public/imgs/modalidades/picto-step.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-step.svg);
 }
 
 .ico-s.swimcoach,
 .ico-m.swimcoach {
-    background-image: url(/public/imgs/modalidades/picto-swimcoach.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-swimcoach.svg);
 }
 
 .ico-s.trx,
 .ico-m.trx {
-    background-image: url(/public/imgs/modalidades/picto-trx.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-trx.svg);
 }
 
 .ico-s.yoga,
 .ico-m.yoga {
-    background-image: url(/public/imgs/modalidades/picto-yoga.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-yoga.svg);
 }
 
 .ico-s.yoguitos,
 .ico-m.yoguitos {
-    background-image: url(/public/imgs/modalidades/picto-yoguitos.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-yoguitos.svg);
 }
 
 .ico-s.zumba,
 .ico-m.zumba {
-    background-image: url(/public/imgs/modalidades/picto-zumba.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-zumba.svg);
 }
 
 
@@ -19099,138 +19105,138 @@ PAGES
 
 .ico-s.ballet.dark,
 .ico-m.ballet.dark {
-    background-image: url(/public/imgs/modalidades/picto-ballet-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-ballet-dark.svg);
 }
 
 .ico-s.ballet2.dark,
 .ico-m.ballet2.dark {
-    background-image: url(/public/imgs/modalidades/picto-ballet-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-ballet-dark.svg);
 }
 
 .ico-s.bodybalance.dark,
 .ico-m.bodybalance.dark {
-    background-image: url(/public/imgs/modalidades/picto-bodybalance-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bodybalance-dark.svg);
 }
 
 .ico-s.bodycombat.dark,
 .ico-m.bodycombat.dark {
-    background-image: url(/public/imgs/modalidades/picto-bodycombat-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bodycombat-dark.svg);
 }
 
 .ico-s.bodyjam.dark,
 .ico-m.bodyjam.dark {
-    background-image: url(/public/imgs/modalidades/picto-bodyjam-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bodyjam-dark.svg);
 }
 
 .ico-s.bodypump.dark,
 .ico-m.bodypump.dark {
-    background-image: url(/public/imgs/modalidades/picto-bodypump-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bodypump-dark.svg);
 }
 
 .ico-s.bodyvive.dark,
 .ico-m.bodyvive.dark {
-    background-image: url(/public/imgs/modalidades/picto-bodyvive-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-bodyvive-dark.svg);
 }
 
 .ico-s.borntomove.dark,
 .ico-m.borntomove.dark {
-    background-image: url(/public/imgs/modalidades/picto-borntomove-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-borntomove-dark.svg);
 }
 
 .ico-s.btm.dark,
 .ico-m.btm.dark {
-    background-image: url(/public/imgs/modalidades/picto-btm-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-btm-dark.svg);
 }
 
 .ico-s.cxworx.dark,
 .ico-m.cxworx.dark {
-    background-image: url(/public/imgs/modalidades/picto-cxworx-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-cxworx-dark.svg);
 }
 
 .ico-s.estrelasmar.dark,
 .ico-m.estrelasmar.dark {
-    background-image: url(/public/imgs/modalidades/picto-estrelasmar-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-estrelasmar-dark.svg);
 }
 
 .ico-s.gap.dark,
 .ico-m.gap.dark {
-    background-image: url(/public/imgs/modalidades/picto-gap-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-gap-dark.svg);
 }
 
 .ico-s.phitkids.dark,
 .ico-m.phitkids.dark {
-    background-image: url(/public/imgs/modalidades/picto-phitkids-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-phitkids-dark.svg);
 }
 
 .ico-s.phitt.dark,
 .ico-m.phitt.dark {
-    background-image: url(/public/imgs/modalidades/picto-phitt-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-phitt-dark.svg);
 }
 
 .ico-s.gritcardio.dark,
 .ico-m.gritcardio.dark {
-    background-image: url(/public/imgs/modalidades/picto-gritcardio-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-gritcardio-dark.svg);
 }
 
 .ico-s.hidrobike.dark,
 .ico-m.hidrobike.dark {
-    background-image: url(/public/imgs/modalidades/picto-hidrobike-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-hidrobike-dark.svg);
 }
 
 .ico-s.hidroginastica.dark,
 .ico-m.hidroginastica.dark {
-    background-image: url(/public/imgs/modalidades/picto-hidroginastica-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-hidroginastica-dark.svg);
 }
 
 .ico-s.phivekangoo.dark,
 .ico-b.phivekangoo.dark,
 .ico-m.phivekangoo.dark {
-    background-image: url(/public/imgs/modalidades/picto-kangoo-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-kangoo-dark.svg);
 }
 
 .ico-s.musculacao.dark,
 .ico-m.musculacao.dark {
-    background-image: url(/public/imgs/modalidades/picto-musculacao-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-musculacao-dark.svg);
 }
 
 .ico-s.natacao.dark,
 .ico-m.natacao.dark {
-    background-image: url(/public/imgs/modalidades/picto-natacao-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-natacao-dark.svg);
 }
 
 .ico-s.pilates.dark,
 .ico-m.pilates.dark {
-    background-image: url(/public/imgs/modalidades/picto-pilates-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-pilates-dark.svg);
 }
 
 .ico-s.powerjump.dark,
 .ico-m.powerjump.dark {
-    background-image: url(/public/imgs/modalidades/picto-powerjump-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-powerjump-dark.svg);
 }
 
 .ico-s.spinning.dark,
 .ico-m.spinning.dark {
-    background-image: url(/public/imgs/modalidades/picto-spinning-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-spinning-dark.svg);
 }
 
 .ico-s.step.dark,
 .ico-m.step {
-    background-image: url(/public/imgs/modalidades/picto-step-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-step-dark.svg);
 }
 
 .ico-s.swimcoach.dark,
 .ico-m.swimcoach.dark {
-    background-image: url(/public/imgs/modalidades/picto-swimcoach-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-swimcoach-dark.svg);
 }
 
 .ico-s.yoga.dark,
 .ico-m.yoga.dark {
-    background-image: url(/public/imgs/modalidades/picto-yoga-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-yoga-dark.svg);
 }
 
 .ico-s.yoguitos.dark,
 .ico-m.yoguitos.dark {
-    background-image: url(/public/imgs/modalidades/picto-yoguitos-dark.svg);
+    background-image: url(../../The_Elements/Images/public/imgs/modalidades/picto-yoguitos-dark.svg);
 }
 
 
@@ -19867,7 +19873,7 @@ body {
     .gym-name.orange::before,
     .gym-name.white::before,
     .content-horarios .off .gym-name.white::before {
-        top: -70px;
+        /* top: -70px; */
     }
     .gym-name.yellow::after,
     .gym-name.orange::after,
@@ -20054,7 +20060,7 @@ body {
 @media screen and (max-width: 568px) {
     /*------------ =GYMS TITLES ---------------*/
     .gym-name {
-        font-size: 58px;
+        font-size: 1.4em;
         padding-left: 20px;
         padding-right: 20px;
     }
