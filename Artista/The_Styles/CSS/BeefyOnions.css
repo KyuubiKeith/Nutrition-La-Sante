@@ -10391,8 +10391,9 @@ PAGES
 
 @media screen and (max-height: 768px) {
     .content-map-home h3 {
-        font: normal 400 60px/74px 'Knockout 27 A', 'Knockout 27 B', Helvetica, Arial, sans-serif;
+        font: normal 400 2.3em/1.5 'Black Sans Regular';
         letter-spacing: 0.5px;
+        padding-top: 0.3em;
     }
     .content-map-home h3::before,
     .content-map-home h3::after {
@@ -10449,14 +10450,14 @@ PAGES
 
 @media screen and (max-height: 768px) {
     .content-map-home h3 .city {
-        font-size: 22px;
+        font-size: 16px;
         top: -26px;
     }
 }
 
 @media screen and (max-height: 768px) and (max-width: 767px) {
     .content-map-home h3 .city {
-        font-size: 20px;
+        font-size: 15px;
         top: -22px;
     }
 }
@@ -10490,7 +10491,7 @@ PAGES
 .content-map-home .link-gym + p {
     text-align: center;
     padding-top: 153px;
-    font: 15px/24px 'p-Regular', Helvetica, Arial, sans-serif;
+    font: 1.1em/2.7em 'Black Sans Regular';
 }
 
 @media screen and (max-height: 768px) {
@@ -10529,7 +10530,7 @@ PAGES
 
 .content-map-home .gym-column div {
     width: 100%;
-    padding-top: 70px;
+    /* padding-top: 70px; */
 }
 
 .content-map-home .btn {
@@ -10565,9 +10566,9 @@ PAGES
 
 .content-map-home ul {
     float: right;
-    width: 45%;
-    font: normal 26px/30px 'Knockout 27 A', 'Knockout 27 B', Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    width: 55%;
+    font: normal 16.9px/1.8em 'Product Sans Regular';
+    /* text-transform: uppercase; */
 }
 
 @media screen and (max-width: 374px) {
@@ -10579,12 +10580,12 @@ PAGES
 
 .content-map-home ul.days {
     float: left;
-    width: 55%;
+    width: 45%;
 }
 
 .content-map-home ul span {
     display: inline-block;
-    width: 87px;
+    /* width: 50%; */
     opacity: .6;
     padding-right: 10px;
     text-align: right;
@@ -10607,7 +10608,7 @@ PAGES
 }
 
 .content-map-home ul.days span {
-    width: 176px;
+    width: 50%;
 }
 
 .mobile .parallax-b-layer {
