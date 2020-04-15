@@ -9147,7 +9147,7 @@ PAGES
     position: absolute;
     width: 100%;
     top: 43%;
-    font: normal 400 84px/84px 'Knockout 27 A', 'Knockout 27 B', Helvetica, Arial, sans-serif;
+    font: normal 400 84px/84px 'Black Sans Regular';
     text-align: center;
     text-transform: uppercase;
     transform: translate3d(0, -50%, 0);
@@ -9162,7 +9162,7 @@ PAGES
 
 #home-start .call-to-action-leiria {
     position: absolute;
-    top: calc(43% + 60px);
+    top: calc(57% + 60px);
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
